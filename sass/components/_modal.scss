@@ -67,7 +67,7 @@
   position: absolute;
   top: -40%;
   left: 0;
-  transform: translateY(40%), translateX(40%);
+  transform: translate(40%, 40%);
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -81,7 +81,7 @@
   position: absolute;
   top: -15%;
   left: 0;
-  transform: translateY(15%, 15%);
+  transform: translateY(15%);
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -166,9 +166,11 @@
   height: 15px;
 }
 .modal-form-custom-checkbox-icon {
+  display: block;
   width: 16px;
   height: 15px;
 }
+
 .modal-close-button {
   position: absolute;
   right: 8px;
